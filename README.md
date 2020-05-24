@@ -1,12 +1,35 @@
-## Welcome to GitHub Pages
+# Rohit Prajapati
+I am a hardworking and focused  individual seeking an opportunity to work in an esteemed organisation where I can learn and  utilize my skills  in consumer centric product development 
 
-You can use the [editor on GitHub](https://github.com/rohitpjpti18/rohitpjpti18.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Check out my projects on https://github.com/rohitpjpti18
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Work Experiences
+### Appin Technologies Lab, Bhopal (June 2019 – July 2019)
+_Trainee_
+Training on python and django and front-end technologies like HTML, CSS, JavaScript,
+worked on projects like courier tracking project
 
-### Markdown
+## Project Experiences
+### HoustonChat (February 2020 – March 2020)
+_https://houstonchat.herokuapp.com_
+This is a platform for real time text based communication. Free of charges. It is build on
+flask framework and uses PostgreSQL for database, for creating duplex channel
+communication web sockets protocol which was implemented using SocketIO . The front
+end is build on HTML, CSS, JavaScript
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### HoustonBlog (February 2020 – March 2020)
+_https://houstonchat.herokuapp.com_
+This is a platform for real time text based communication. Free of charges. It is build on
+flask framework and uses PostgreSQL for database, for creating duplex channel
+communication web sockets protocol which was implemented using SocketIO . The front
+end is build on HTML, CSS, JavaScript
+
+### HoustonChat (February 2020 – March 2020)
+_https://houstonchat.herokuapp.com_
+This is a platform for real time text based communication. Free of charges. It is build on
+flask framework and uses PostgreSQL for database, for creating duplex channel
+communication web sockets protocol which was implemented using SocketIO . The front
+end is build on HTML, CSS, JavaScript
 
 ```markdown
 Syntax highlighted code block
