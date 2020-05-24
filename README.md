@@ -11,7 +11,7 @@ worked on projects like courier tracking project
 
 ## Project Experiences
 ### HoustonChat (February 2020 – March 2020)
-- _https://houstonchat.herokuapp.com_
+_https://houstonchat.herokuapp.com_
 
 This is a platform for real time text based communication. Free of charges. It is build on
 flask framework and uses PostgreSQL for database, for creating duplex channel
@@ -19,7 +19,7 @@ communication web sockets protocol which was implemented using SocketIO . The fr
 end is build on HTML, CSS, JavaScript
 
 ### HoustonBlog (February 2020 – March 2020)
-- _https://houstonchat.herokuapp.com_
+_https://houstonchat.herokuapp.com_
 
 This is a platform for real time text based communication. Free of charges. It is build on
 flask framework and uses PostgreSQL for database, for creating duplex channel
@@ -27,7 +27,7 @@ communication web sockets protocol which was implemented using SocketIO . The fr
 end is build on HTML, CSS, JavaScript
 
 ### HoustonChat (February 2020 – March 2020)
-- _https://houstonchat.herokuapp.com_
+_https://houstonchat.herokuapp.com_
 
 This is a platform for real time text based communication. Free of charges. It is build on
 flask framework and uses PostgreSQL for database, for creating duplex channel
