@@ -1,46 +1,108 @@
 body{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-}
-
-.gap{
-    height: 100px;
-}
-
-button{
-    cursor: pointer;
-    border: none;
-    height: 40px;
-    width: auto;
-    padding: 14px 28px;
-    background-color: #6199f2;
-    color: #000;
-    border-radius: 0px;
-}
-
-button:hover{
-    background-color: #5d75df;
-}
-
-#main-container{
-    height: 400px;
     margin: 0%;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-.bar{
-    position: absolute;
-    bottom: 0;
-    width: 95%;
-    background-color: #6199f2;
+.space-container{
+    min-height: 40px;
 }
 
-.row{
+.main-background{
+    width: 100%;
     position: relative;
-    align-items: flex-end;
-    height: 100%;
-    width: 2%;
-    display: inline-block;
+    opacity: 0.6;
+}
+
+.top-container{
+    position: relative;
+}
+
+.title{
+    font-size: 61px;
+    font-weight: 900;
+}
+
+.sub-title{
+    font-size: 32px;
+}
+
+.middle-element{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 36%;
+    left: 32%;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ffe324;
+    top: 0;
+    bottom: 0;
+}
+
+/* Container around content */
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+  
+  /* The circles on the timeline */
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid black;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Add arrows to the right container (pointing left) */
+.timeline-right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 20px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #90AFE8;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #90AFE8 transparent transparent;
+}
+  
+  /* Fix the circle for containers on the right side */
+.timeline-right::after {
+    left: -10px;
+}
+  
+  /* The actual content */
+.timeline-content {
+    max-width: 900px;
+    padding: 20px 30px;
+    background-color: #90AFE8;
+    position: relative;
+    border-radius: 6px;
 }
