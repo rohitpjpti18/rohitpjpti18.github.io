@@ -52,7 +52,7 @@ body{
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #ffe324;
+    background-color:#90AFE8;
     top: 0;
     bottom: 0;
 }
@@ -88,9 +88,9 @@ body{
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #90AFE8;
+    border: medium solid  #E8E8EA;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #90AFE8 transparent transparent;
+    border-color: transparent #E8E8EA transparent transparent;
 }
   
   /* Fix the circle for containers on the right side */
@@ -102,7 +102,7 @@ body{
 .timeline-content {
     max-width: 900px;
     padding: 20px 30px;
-    background-color: #90AFE8;
+    background-color:#E8E8EA;
     position: relative;
     border-radius: 6px;
 }
