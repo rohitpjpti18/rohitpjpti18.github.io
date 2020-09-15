@@ -133,6 +133,24 @@ body{
 }
 
 .skill-image{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+.animate-top{
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop{
+    from{
+        top:-300px;
+        opacity:0
+    } 
+    to{
+        top:0;
+        opacity:1;
+    }
 }

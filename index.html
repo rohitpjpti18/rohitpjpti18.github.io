@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body onload="load()">
+
+    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Rohit Prajapati</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#experience">Work Experience</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
     <div class="top-container">
         <img class="main-background"  src="images/himalayas-mountains (2).jpg">
         <div class="middle-element">
@@ -16,11 +46,11 @@
         </div>
     </div>
 
-    <div class="space-container">
+    <div id="about" class="space-container">
     </div>
 
     <div class="container">
-        <div class="row">
+        <div  class="row">
             <div class = "col-md-8">
                 <h1 class="display-4"><b>About Me</b></h1>
                 <p>Versatile and detail-oriented honors graduate with major in electronics and communication engineering seeking an entry-level position as a software engineer. Experienced in working on various software development projects and an algorithms enthusiast.</p>
@@ -31,14 +61,15 @@
         </div>
     </div>
 
-    <div class="space-container">
+    <div id="skills" class="space-container">
     </div>
 
     <div class="dark-container">
-        <div class="container">
+        <div  class="container">
             <div class="row text-center">
                 <div class="col-md-12">
                     <h1><b>Skills</b></h1>
+                    <h4><b>Programming</b></h4>
                 </div>
             </div>
             <div class="row">
@@ -67,16 +98,36 @@
                     <p>Prior Experience</p>
                 </div>
             </div>
-        </div>
 
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4><b>Industry Specific</b></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 text-center ">
+                    <img class="skill-image" src="images/undraw_web_developer_p3e5.svg">
+                    <p>Web Development</p>
+                </div>
+                <div class="col-md-2 text-center ">
+                    <img class="skill-image" src="images/undraw_professor_8lrt.svg">
+                    <p>Algorthims and problem solving</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img class="skill-image" src="images/undraw_Operating_system_re_iqsc.svg">
+                    <p>Familiarity with Unix like operating systems</p>
+                </div>
+            </div>
+        </div>
     </div>
       
     
-    <div class="space-container">
+    <div id="experience" class="space-container">
     </div>
 
+
     <div class="container">
-        <div class="row">
+        <div  class="row">
             <div class="col-md-4">
                 <img class="img" src="images/undraw_Connecting_Teams_8ntu.svg">
             </div>
@@ -95,7 +146,7 @@
         </div>
     </div>
 
-    <div class="space-container">
+    <div id="projects" class="space-container">
     </div>
     
     <div class="space-container">
@@ -110,28 +161,28 @@
                     <div class="timeline-container timeline-right">
                         <div class="timeline-content">
                           <h2>Path Finder</h2>
-                          <h5>Tool for visualizing Path Finding Algorthims.</h5>
+                          <h5>Tool for visualizing Path Finding Algorthims | Sept 2020 - Present</h5>
                           <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
                         </div>
                     </div>
                     <div class="timeline-container timeline-right">
                         <div class="timeline-content">
                           <h2>Sorting Visualizer</h2>
-                          <h5>Tool for visualizing Sorting Algorthims.</h5>
+                          <h5>Tool for visualizing Sorting Algorthims | August 2020 - Sept 2020</h5>
                           <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
                         </div>
                     </div>
                     <div class="timeline-container timeline-right">
                         <div class="timeline-content">
                           <h2>JVVT</h2>
-                          <h5>Open Source Go Library for implementing JWT</h5>
+                          <h5>Open Source Go Library for implementing JWT | April 2020 - Sept 2020</h5>
                           <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
                         </div>
                     </div>
                     <div class="timeline-container timeline-right">
                         <div class="timeline-content">
                           <h2>Courier Tracking Project</h2>
-                          <h5>Web Application for tracking shipments</h5>
+                          <h5>Web Application for tracking shipments | June 2020 -July 2020</h5>
                           <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
                         </div>
                     </div>
@@ -143,14 +194,14 @@
         </div>
     </div>
 
-    <div class="space-container">
+    <div id="education" class="space-container">
     </div>
 
     <div class="space-container">
     </div>
 
     <div class="container">
-        <div class="row">
+        <div  class="row">
             <div class="col-md-4">
                 <img class="img" src="images/undraw_Graduation_ktn0.svg">
             </div>
@@ -193,14 +244,16 @@
         <div class="space-container">
         </div>   
         <div class="container">
-          <span class="text-muted">Place sticky footer content here.</span>
+          <span class="text-light">@rohit prajapati</span>
         </div>
         <div class="space-container">
         </div>   
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
