@@ -9,28 +9,20 @@ body{
 .main-background{
     width: 100%;
     position: relative;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .top-container{
     position: relative;
 }
 
-.title{
-    font-size: 61px;
-    font-weight: 900;
-}
-
-.sub-title{
-    font-size: 32px;
-}
 
 .middle-element{
-    width: 500px;
+    width: 80%;
     height: 250px;
     position: absolute;
     top: 36%;
-    left: 32%;
+    left: 5%;
 }
 
 .img{
