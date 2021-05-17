@@ -35,7 +35,7 @@ function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "navbar navbar-expand-lg navbar-light bg-light fixed-top animate-top";
-        navbar.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
+        navbar.style.boxShadow = "0 15px 15px 0 rgba(0, 0, 0, 0.25), 0 15px 15px 0 rgba(0, 0, 0, 0.25)"
     } 
     else {
         navbar.className = "navbar navbar-expand-lg navbar-dark fixed-top";
